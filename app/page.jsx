@@ -6,6 +6,7 @@ import HowItWorks from './Components/HowItworks'
 import Pricing from './Components/Pricing'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
+import ContactPage from './Components/contact'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
      <Features/>
      <HowItWorks/>
      <Pricing/>
+     <ContactPage/>
      <Footer/>
     </div>
   )

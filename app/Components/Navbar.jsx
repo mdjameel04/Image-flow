@@ -93,7 +93,7 @@ const Navbar = () => {
                   <span
                     className={`
                       absolute left-1/2 -translate-x-1/2 bottom-0 h-[2px] rounded-full
-                      bg-gradient-to-r from-purple-400 to-fuchsia-400
+                      bg-linear-to-r from-purple-400 to-fuchsia-400
                       transition-all duration-300
                       ${isActive ? "w-6" : "w-0 group-hover:w-6"}
                     `}

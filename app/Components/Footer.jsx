@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -21,9 +22,11 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex gap-2.5 flex-wrap shrink-0">
+          <Link href={"/generate"}>
           <button className="px-6 py-3 rounded-[11px] bg-gradient-to-br from-violet-600 to-purple-500 text-white text-[13px] font-medium border-none cursor-pointer shadow-[0_0_24px_rgba(168,85,247,0.35)] hover:shadow-[0_0_38px_rgba(168,85,247,0.58)] hover:-translate-y-px transition-all duration-200">
             ✦ Get started free
           </button>
+          </Link>
         </div>
       </div>
   <div className="mx-auto text-center">
