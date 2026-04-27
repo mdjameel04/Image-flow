@@ -31,7 +31,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#080810] relative overflow-hidden px-4"  id='contact'>
+    <div className="min-h-screen flex items-center justify-center bg-[#080810] relative overflow-hidden px-4"  id='contact mt-6'>
 
       {/* Background glows */}
       <div className="pointer-events-none absolute inset-0">
