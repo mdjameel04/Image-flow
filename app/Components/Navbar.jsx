@@ -54,7 +54,7 @@ const Navbar = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-purple-500/20 blur-md scale-110 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <Image
-                src="/logo.png"
+                src="/Logo.png"
                 alt="logo"
                 width={500}
                 height={500}

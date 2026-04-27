@@ -47,7 +47,7 @@ const SidebarContent = () => (
   <>
     {/* Logo */}
     <div className='flex items-center justify-center mt-2 gap-2'>
-      <Image src={"/logo.png"} alt='logo' width={25} height={25} />
+      <Image src={"/Logo.png"} alt='logo' width={25} height={25} />
       <h1 className='text-2xl font-bold font-italiano'>
         Image <span className='text-purple-600'>Flow</span>
       </h1>
@@ -89,7 +89,7 @@ const Sidebar = () => {
   return (
     <>
       {/* 📱 Mobile Topbar */}
-      <div className="md:hidden flex items-center justify-between p-4 border-b border-white/10 bg-[#0B0B0F]">
+      <div className="md:hidden flex  justify-start gap-1  p-4 border-b border-white/10 bg-[#0B0B0F]">
           <h1 className='text-3xl font-bold font-italiano'>
         Image <span className='text-purple-600'>Flow</span>
       </h1>
